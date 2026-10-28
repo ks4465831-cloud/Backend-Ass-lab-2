@@ -160,7 +160,7 @@ router.delete("/:id", (req, res) => {
 
     } catch (error) {
         res.status(500).json({
-            message: "Server error",
+            message: "Server not found",
             error: error.message
         });
     }
