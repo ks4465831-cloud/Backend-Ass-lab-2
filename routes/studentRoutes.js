@@ -154,7 +154,7 @@ router.delete("/:id", (req, res) => {
         const deletedStudent = students.splice(index, 1);
 
         res.status(200).json({
-            message: "Student deleted successfully",
+            message: "Student delete successfully",
             student: deletedStudent[0]
         });
 
